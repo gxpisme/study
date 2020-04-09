@@ -7,6 +7,13 @@
 
 两者的地位有点类似，但是具体作用不同。可以进一步参考stackoverflow上的详细解释：https://stackoverflow.com/questions/224664/difference-between-proxy-server-and-reverse-proxy-server
 
+# 分布式&集群
+分布式（distributed）是指在多台不同的服务器中部署不同的服务模块，通过远程调用协同工作，对外提供服务。比如把购物分为商品、购物车、订单、支付。
+
+集群（cluster）是指在多台不同的服务器中部署相同应用或服务模块，构成一个集群，通过负载均衡设备对外提供服务。
+
+
+
 
 # 服务发现的三种机制
 - load balance 独立部署 效率低 耗时
