@@ -14,8 +14,8 @@
 
 
 
-需要翻墙
-[](https://medium.com/@mena.meseha/difference-between-distributed-and-cluster-aca9d50c2c44)
+
+[需要翻墙 difference-between-distributed-and-cluster](https://medium.com/@mena.meseha/difference-between-distributed-and-cluster-aca9d50c2c44)
 ```
 Distributed refers to splitting a business into different sub-services and distributing them on different machines. Clustering means that multiple servers are grouped together to achieve the same service. 
 ```
