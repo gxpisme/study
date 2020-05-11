@@ -13,8 +13,6 @@
 集群（cluster）是指在多台不同的服务器中部署相同应用或服务模块，构成一个集群，通过负载均衡设备对外提供服务。
 
 
-
-
 [需要翻墙 difference-between-distributed-and-cluster](https://medium.com/@mena.meseha/difference-between-distributed-and-cluster-aca9d50c2c44)
 ```
 Distributed refers to splitting a business into different sub-services and distributing them on different machines. Clustering means that multiple servers are grouped together to achieve the same service. 
@@ -68,3 +66,5 @@ push 保证实时，但是有网络抖动，就不会更新到。
 1. 先启动，这时候**不要**发送任何注册信息到服务注册中心。
 2. 启动成功后，在告诉服务注册中心，我已经`ready`了，可以注册了。
 
+# failover
+failover 就是 故障转移。
