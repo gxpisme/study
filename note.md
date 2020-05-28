@@ -88,4 +88,15 @@ B+树索引在数据库中有一个特点是高扇出性，因此在数据库中
 
 
 
+# SLA SLO SLI
+```
+SLA or Service Level Agreement is a contract that the service provider promises customers on service availability, performance, etc.
+服务质量协议  服务提供方对消费者的一种保障协议。
 
+SLO or Service Level Objective is a goal that service provider wants to reach.
+服务质量目标  服务提供方想要达到的一个目标
+
+SLI or Service Level Indicator is a measurement the service provider uses for the goal.
+服务质量指标 该服务的某项服务质量的一个具体量化指标。常见的SLI 包括错误率（请求处理失败的百分比）、系统吞吐量（每秒请求数量）等。
+
+```
