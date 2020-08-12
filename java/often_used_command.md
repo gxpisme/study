@@ -134,3 +134,8 @@ Constant pool:
 SourceFile: "Test.java"
 
 ```
+
+### 根据PID 导出栈信息
+```
+[root@localhost ~]# jstack pid
+```
