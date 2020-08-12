@@ -10,7 +10,7 @@ public class Test {
 }
 ```
 
-一. **编译：** 将`.java`源文件，编译成`.class`文件。命令如下
+###  **编译：** 将`.java`源文件，编译成`.class`文件。命令如下
 
 ```
 编译命令javac 编译成Test.class文件
@@ -21,14 +21,14 @@ public class Test {
 Test.class  Test.java
 ```
 
-二. **执行：** 执行编译后的`.class`文件。命令如下
+###  **执行：** 执行编译后的`.class`文件。命令如下
 
 ```
 [root@localhost ~]# java Test
 hello world
 ```
 
-三. **反编译：** 通过反编译查看`.class`文件。命令如下
+### **反编译：** 通过反编译查看`.class`文件。命令如下
 
 ```
 [root@localhost ~]# javap Test.class
@@ -38,10 +38,16 @@ public class Test {
   public static void main(java.lang.String[]);
 }
 
-#javap 常用的参数 -c -v
+```
+
+javap 常用的参数 -c -v
+
 -c Disassemble the code 反汇编代码
+
 -v Print additional information 打印附加信息
 
+
+```
 [root@localhost ~]# javap -c Test.class
 Compiled from "Test.java"
 public class Test {
@@ -59,6 +65,9 @@ public class Test {
        8: return
 }
 
+```
+
+```
 [root@localhost ~]# javap -v Test.class
 Classfile /home/www-data/study/java/Test.class
   Last modified Aug 12, 2020; size 413 bytes
