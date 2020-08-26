@@ -156,3 +156,8 @@ JVM的GC日志的主要参数包括如下几个：
 -XX:+PrintGCApplicationStoppedTime // 输出GC造成应用暂停的时间
 
 -Xloggc:../logs/gc.log 日志文件的输出路径
+
+### 查看当前的垃圾回收器
+```
+java -XX:+PrintCommandLineFlags -version
+```
