@@ -7,3 +7,7 @@
 
 # Double Check Lock
 
+# Volidate
+作用一：内存可见
+
+作用二：禁止指令重排
