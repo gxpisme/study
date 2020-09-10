@@ -12,6 +12,9 @@ CPU的速度比内存快很多。假设有两个指令，两个指令没有任�
 
 由于CPU一般采用流水线来执行指令，流水线是并行的，。。。。。。
 
+
+指令重排序的文章 https://tech.meituan.com/2014/09/23/java-memory-reordering.html
+
 # Double Check Lock
 
 # Volidate
