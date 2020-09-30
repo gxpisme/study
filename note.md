@@ -101,3 +101,4 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 
 ```
 # Concurrency & Parallelism
+![](/image/base-knowledge.jpg)
