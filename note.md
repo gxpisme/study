@@ -102,3 +102,30 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 ```
 # Concurrency & Parallelism
 ![](/image/base-knowledge.jpg)
+
+
+# MySQL 锁
+1. X/S 排他锁和共享锁
+2. IX/IS 意向排他锁和意向共享锁
+3. record 锁记录，拿着索引来锁的
+4. gap lock 间隙锁，
+  - between index records   两个索引之间
+  - before the first record  第一个索引之前
+  - after the last index record 最后一个索引之后
+5. next lock
+  - record + gap lock(before the first record) 该索引和该索引之前的记录
+6. Insert intention Locks 插入意向锁
+7. Auto-Inc 表级锁
+
+知识点
+1. 获取X/S之前必须先获得IX/IS锁
+2. 插入意向锁是一种gap lock，如果多个插入到同一个索引间隙的事务，插入的位置不同，则不冲突。
+3. 脏读Dirty Read、不可重复度non repeatable、幻读phantom reads
+  - 脏读： 读到了其他未提交的数据
+  - 不可重复读：读到了别人已经提交的数据，侧重修改数据
+  - 幻读：读到了别人已经提交的数据，侧重新增数据
+
+
+
+
+
