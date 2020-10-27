@@ -142,6 +142,6 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 
 2. MVCC Mutil Version Concurrency Control  提高读写并发
 
-3. 插入缓冲，Insert Buffer。
+3. 插入缓冲，Insert Buffer。对于辅助索引的插入或更新操作，不是每一次直接插入到索引页中，而是先判断插入的辅助索引是否在缓冲池中，若在，直接插入；若不在，则先放入到一个insert buffer中。
 
 
