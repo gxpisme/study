@@ -125,7 +125,21 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
   - 不可重复读：读到了别人已经提交的数据，侧重修改数据UPDATE
   - 幻读：读到了别人已经提交的数据，侧重新增数据INSERT/删除数据DELETE
 
+# MySQL 索引
+1. InnoDB主键索引、辅助索引， 主键索引就是叶子节点是数据，辅助索引叶子节点是主键。最底层的叶子节点是双链表。覆盖索引，不用走主键索引。
+2. MyISAM主键索引、辅助索引， 主键索引就是叶子节点是数据存放的物理位置，辅助索引叶子节点也是存放的物理位置，区别点主键索引不能重复，辅助索引可重复。
+3. InnoDB自适应哈希索引 将热数据直接读到缓存中，数据结构用hash存储，将随机读改为顺序读，也不用走B+树索引查找。时间复杂度O(1)
 
+# MySQL 其他知识点
+1. InnoDB 支持4中事务。
+  - RN Read unCommited  读未提交，产生脏读
+  - RC Read Commited    读已提交，产生不可重复读、幻读
+  - RR Repeate Read     可产生幻读
+  - SERIALIZABLE        稳
+[how-to-produce-phantom-reads](https://stackoverflow.com/questions/5444915/how-to-produce-phantom-reads)
 
+2. MVCC Mutil Version Concurrency Control  提高读写并发
+
+3. 插入缓冲，Insert Buffer。
 
 
