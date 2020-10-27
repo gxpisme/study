@@ -122,8 +122,8 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 2. 插入意向锁是一种gap lock，如果多个插入到同一个索引间隙的事务，插入的位置不同，则不冲突。
 3. 脏读Dirty Read、不可重复度non repeatable、幻读phantom reads
   - 脏读： 读到了其他未提交的数据
-  - 不可重复读：读到了别人已经提交的数据，侧重修改数据
-  - 幻读：读到了别人已经提交的数据，侧重新增数据
+  - 不可重复读：读到了别人已经提交的数据，侧重修改数据UPDATE
+  - 幻读：读到了别人已经提交的数据，侧重新增数据INSERT/删除数据DELETE
 
 
 
