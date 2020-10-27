@@ -137,6 +137,7 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
   - RC Read Commited    读已提交，产生不可重复读、幻读
   - RR Repeate Read     可产生幻读
   - SERIALIZABLE        稳
+
 [how-to-produce-phantom-reads](https://stackoverflow.com/questions/5444915/how-to-produce-phantom-reads)
 
 2. MVCC Mutil Version Concurrency Control  提高读写并发
