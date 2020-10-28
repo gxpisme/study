@@ -133,9 +133,9 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 
 # MySQL 其他知识点
 1. InnoDB 支持4中事务。
-  - RN Read unCommited  读未提交，产生脏读
-  - RC Read Commited    读已提交，产生不可重复读、幻读
-  - RR Repeate Read     可产生幻读
+  - RN READ UNCOMMITTED  读未提交，产生脏读
+  - RC READ COMMITTED   读已提交，产生不可重复读、幻读
+  - RR REPEATABLE READ     可产生幻读
   - SERIALIZABLE        稳
 
 [how-to-produce-phantom-reads](https://stackoverflow.com/questions/5444915/how-to-produce-phantom-reads)
