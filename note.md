@@ -144,4 +144,7 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 
 3. 插入缓冲，Insert Buffer。对于辅助索引的插入或更新操作，不是每一次直接插入到索引页中，而是先判断插入的辅助索引是否在缓冲池中，若在，直接插入；若不在，则先放入到一个insert buffer中。
 
+4. 异步IO，IO merge，系统判断出相邻的，就进行IO Merge 减少IO操作。
+
+5. double write InnoDB存储引擎的是数据页的可靠性
 
