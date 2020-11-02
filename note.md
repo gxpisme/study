@@ -148,3 +148,5 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 
 5. double write InnoDB存储引擎的是数据页的可靠性
 
+6. Insert on update 会带来死锁问题。insert 和 update分两步操作
+
