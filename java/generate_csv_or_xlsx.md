@@ -9,3 +9,4 @@
 
 ## excel
 https://ssaurel.medium.com/generating-microsoft-excel-xlsx-files-in-java-9508d1b521d9
+https://stackoverflow.com/questions/7274076/writing-a-large-resultset-to-an-excel-file-using-poi
