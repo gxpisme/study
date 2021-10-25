@@ -23,9 +23,6 @@ import java.util.*;
  * 0 <= digits.length <= 4
  * digits[i] is a digit in the range ['2', '9'].
  *
- *
- * @author gxp177726@alibaba-inc.com
- * @date 2021/10/21
  */
 public class Seventeen {
 

@@ -20,9 +20,6 @@ package io.github.gxpisme;
  * 3 <= nums.length <= 1000
  * -1000 <= nums[i] <= 1000
  * -10^4 <= target <= 10^4
- *
- * @author gxp177726@alibaba-inc.com
- * @date 2021/10/22
  */
 public class Sixteen {
 
