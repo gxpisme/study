@@ -3,3 +3,6 @@
 *.iws
 *.iml
 *.ipr
+leetcode.iml
+leetcode/out/
+.gitignore
