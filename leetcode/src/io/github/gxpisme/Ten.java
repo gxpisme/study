@@ -44,69 +44,72 @@ import sun.jvm.hotspot.utilities.Assert;
  */
 public class Ten {
     public static void main(String[] args) {
-        if (isMatch("aa", "a") == false) {
-        } else {
-            System.out.println("1 failed");
-        }
-        if (isMatch("aa", "a*") == true) {
-        } else {
-            System.out.println("2 failed");
-        }
-        if (isMatch("ab", ".*") == true) {
-        } else {
-            System.out.println("3 failed");
-        }
-        if (isMatch("aab", "c*a*b") == true) {
-        } else {
-            System.out.println("4 failed");
-        }
-        if (isMatch("mississippi", "mis*is*p*.") == false) {
-        } else {
-            System.out.println("5 failed");
-        }
-        if (isMatch("abcd", "a.*d") == true) {
-        } else {
-            System.out.println("6 failed");
-        }
-        if (isMatch("abcd", "a.*e") == false) {
-        } else {
-            System.out.println("7 failed");
-        }
-        if (isMatch("aaa", "aa") == false) {
-        } else {
-            System.out.println("8 failed");
-        }
-        if (isMatch("ab", ".*c") == false) {
-        } else {
-            System.out.println("9 failed");
-        }
-        if (isMatch("aaa", "ab*ac*a") == true) {
-        } else {
-            System.out.println("10 failed");
-        }
-        if (isMatch("aaa", "a.a") == true) {
-        } else {
-            System.out.println("11 failed");
-        }
-        if (isMatch("aaca", "ab*a*c*a") == true) {
-        } else {
-            System.out.println("12 failed");
-        }
-        if (isMatch("a", "ab*") == true) {
-        } else {
-            System.out.println("13 failed");
-        }
-        if (isMatch("bbbba", ".*a*a") == true) {
-        } else {
-            System.out.println("14 failed");
-        }
-        if (isMatch("aaa", "a*a") == true) {
-        } else {
-            System.out.println("15 failed");
-        }
+//        if (isMatch("aa", "a") == false) {
+//        } else {
+//            System.out.println("1 failed");
+//        }
+//        if (isMatch("aa", "a*") == true) {
+//        } else {
+//            System.out.println("2 failed");
+//        }
+//        if (isMatch("ab", ".*") == true) {
+//        } else {
+//            System.out.println("3 failed");
+//        }
+//        if (isMatch("aab", "c*a*b") == true) {
+//        } else {
+//            System.out.println("4 failed");
+//        }
+//        if (isMatch("mississippi", "mis*is*p*.") == false) {
+//        } else {
+//            System.out.println("5 failed");
+//        }
+//        if (isMatch("abcd", "a.*d") == true) {
+//        } else {
+//            System.out.println("6 failed");
+//        }
+//        if (isMatch("abcd", "a.*e") == false) {
+//        } else {
+//            System.out.println("7 failed");
+//        }
+//        if (isMatch("aaa", "aa") == false) {
+//        } else {
+//            System.out.println("8 failed");
+//        }
+//        if (isMatch("ab", ".*c") == false) {
+//        } else {
+//            System.out.println("9 failed");
+//        }
+//        if (isMatch("aaa", "ab*ac*a") == true) {
+//        } else {
+//            System.out.println("10 failed");
+//        }
+//        if (isMatch("aaa", "a.a") == true) {
+//        } else {
+//            System.out.println("11 failed");
+//        }
+//        if (isMatch("aaca", "ab*a*c*a") == true) {
+//        } else {
+//            System.out.println("12 failed");
+//        }
+//        if (isMatch("a", "ab*") == true) {
+//        } else {
+//            System.out.println("13 failed");
+//        }
+//        if (isMatch("bbbba", ".*a*a") == true) {
+//        } else {
+//            System.out.println("14 failed");
+//        }
+//        if (isMatch("aaa", "a*a") == true) {
+//        } else {
+//            System.out.println("15 failed");
+//        }
+        System.out.println(isMatch("aaa", "a*a"));
     }
 
     /**
+     * aaa
+     * a*a
      * @param s string
      * @param p pattern
      * @return boolean
