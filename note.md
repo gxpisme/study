@@ -150,3 +150,8 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 
 6. Insert on update 会带来死锁问题。insert 和 update分两步操作
 
+
+# JIT
+just in time
+
+就是将热点代码，直接转为机器码，直接执行
