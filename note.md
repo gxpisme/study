@@ -152,6 +152,6 @@ SLI or Service Level Indicator is a measurement the service provider uses for th
 
 
 # JIT
-just in time
+just in time 及时编译器
 
-就是将热点代码，直接转为机器码，直接执行
+就是将热点代码，直接转为机器码，直接执行。
